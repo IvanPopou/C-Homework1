@@ -10,6 +10,9 @@ int valueN = Convert.ToInt32(inputN);
 int index = 0;
 while(index<valueN)
 {
+if (index % 2==1) 
+{
     Console.WriteLine(index+1);
+}
     index++;
 }
